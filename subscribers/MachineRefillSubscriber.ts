@@ -1,8 +1,8 @@
-import IEvent from "../events/IEvent";
+import MachineRefillEvent from "../events/MachineRefillEvent";
 import ISubscriber from "./ISubscriber";
 
 class MachineRefillSubscriber implements ISubscriber {
-    handle(event: IEvent): void {
+    handle(event: MachineRefillEvent): void {
         throw new Error("Method not implemented.");
     }
 }
