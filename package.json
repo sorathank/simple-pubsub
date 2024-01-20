@@ -1,0 +1,15 @@
+{
+  "name": "simple-pubsub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sorathank/simple-pubsub.git",
+  "author": "Sorathan Kritveeranant <sorathan.krit@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "ts-node ./app.ts"
+  }
+}
