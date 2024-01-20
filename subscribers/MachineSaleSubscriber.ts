@@ -19,7 +19,6 @@ class MachineSaleSubscriber implements ISubscriber {
       }
     }
   }
-
 }
 
 export default MachineSaleSubscriber;
