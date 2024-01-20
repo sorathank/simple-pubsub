@@ -1,4 +1,5 @@
 import MachineSaleEvent from "../events/MachineSaleEvent";
+import Machine from "../models/Machine";
 import ISubscriber from "./ISubscriber";
 
 class MachineSaleSubscriber implements ISubscriber {

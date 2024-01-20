@@ -3,8 +3,8 @@ import ISubscriber from "../subscribers/ISubscriber";
 
 interface IPublishSubscribeService {
     publish(event: IEvent): void;
-    subscribe(type: string, handler: ISubscriber): void;
-    // unsubscribe ( /* Question 2 - build this feature */ );
+    subscribe(type: string, subscriber: ISubscriber): void;
+    unsubscribe(type: string, subscriber: ISubscriber): void;
 }
 
 export default IPublishSubscribeService
