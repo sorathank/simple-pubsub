@@ -10,8 +10,12 @@ class MachineRefillEvent implements IEvent {
     return this._machineId;
   }
 
+  getRefilledQuantity(): number {
+    return this._refill;
+  }
+
   type(): string {
-    return "refill";
+    return "MachineRefillEvent";
   }
 }
 

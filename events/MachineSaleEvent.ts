@@ -15,7 +15,7 @@ class MachineSaleEvent implements IEvent {
   }
 
   type(): string {
-    return "sale";
+    return "MachineSaleEvent";
   }
 }
 
