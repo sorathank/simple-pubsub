@@ -1,10 +1,10 @@
 class Machine {
-    public stockLevel = 10;
-    public id: string;
+  public stockLevel = 10;
+  public id: string;
 
-    constructor(id: string) {
-        this.id = id;
-    }
+  constructor(id: string) {
+    this.id = id;
+  }
 }
 
-export default Machine
+export default Machine;

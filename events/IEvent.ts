@@ -1,6 +1,6 @@
 interface IEvent {
-    type(): string;
-    machineId(): string;
+  type(): string;
+  machineId(): string;
 }
 
-export default IEvent
+export default IEvent;
