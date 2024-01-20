@@ -25,3 +25,5 @@ class PublishSubscribeService implements IPublishSubscribeService {
     // Handle event queuing and processing logic
   }
 }
+
+export default PublishSubscribeService
